@@ -6,7 +6,7 @@ vin - VARCHAR(17) - UNIQUE - NOT NULL                (sarebbe il telaio/codice f
 car_brand - VARCHAR(15) - NOT NULL                   (Marchio auto)
 car_model_name - VARCHAR(15) - NOT NULL              (Nome modello auto)
 typing_car - VARCHAR(15)                             (Modello auto : se berlina, station wagon, suv...)
-price - DECIMAL(6) - NOT NULL                        (ero del settore, e mai visto prezzi con decimali)
+price - MEDIUMINT - NOT NULL                         (banalmente il prezzo)
 year - YEAR                                          (Anno della prima immatricolazione)
 color -  VARCHAR(10)                                 (banalmente il colore)
 metallic - TINYINT - DEFAULT(0)                      (se metallizzato o meno, default no)
