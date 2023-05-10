@@ -11,7 +11,7 @@ year - YEAR                                          (Anno della prima immatrico
 color -  VARCHAR(10)                                 (banalmente il colore)
 metallic - TINYINT - DEFAULT(0)                      (se metallizzato o meno, default no)
 fuel -  VARCHAR(10)                                  (tipo di carburante)
-cylinder -  TINYINT (12)                             (cilindrata, massimo V-12)
+cylinder -  TINYINT (12) - UNSIGNED                  (cilindrata, massimo V-12)
 horse_power -   SMALLINT - UNSIGNED                  (cavalli potenza)
 tax horses - SMALLINT  - UNSIGNED                    (cavalli fiscali)
 alloy wheels - TINYINT - DEFAULT(0)                  (cerchi in lega,default no)
