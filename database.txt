@@ -26,5 +26,5 @@ mileage - MEDIUMINT  - UNSIGNED                      (sempre per esperienza, dif
 owners - TINYINT (10)  - NOT NULL                    (numeri di proprietari che ha avuto)
 imported - TINYINT - DEFAULT(0)                      (se è di importazione o meno, di default no)
 available - TINYINT - DEFAULT(1)                     (se è disponibile, di default si)
-vote_secure - TINYINT (1) - UNSIGNED                 (valutazione euro Ncap , da 1 a 5)
+vote_secure - TINYINT (5) - UNSIGNED                 (valutazione euro Ncap , da 1 a 5)
 reviews - TEXT                                       (recensioni globali dei proprietari)
